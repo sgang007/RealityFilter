@@ -1,5 +1,6 @@
-VR Streamer
+AR Camera
 ========
+Augmentated reality app from phone or web camera
  - `sudo apt-get install apache2`
  - Install SSL certificate to test this demo: [SSL certificate for apache](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
  - `sudo git clone https://github.com/sgang007/vrStreamer vrcam
