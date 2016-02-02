@@ -58,9 +58,9 @@
         if (window.DeviceOrientationEvent) {
           window.addEventListener('deviceorientation', function(evt) {
             //TODO: Add functions for Servo Control through GPIO
-              console.log('X axis: %f',evt.alpha)
-              console.log('Y axis: %f',evt.beta)
-              console.log('Z axis: %f',evt.gamma)
+              console.log('Roll : %f',evt.alpha)
+              console.log('Yaw : %f',evt.beta)
+              console.log('Pitch : %f',evt.gamma)
             
           }.bind(this));
         }
